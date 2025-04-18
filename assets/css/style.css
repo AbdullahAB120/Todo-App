@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.6s;
+}
+
+
+
+.todo {
+	min-height: 100vh;
+	background: black;
+}
+
+
+
+.todo-title {
+	background: orange;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.todo-title h1 {
+	
+}
+
+
+
+.todo-body {
+	padding: 50px 0;
+}
+
+
+.todo-input {
+	text-align: center;
+}
+
+.todo-input form {
+	text-align: center;
+	padding: 35px 25px;
+	background: orange;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.todo-input form input {
+	background: none;
+	width: 240px; 
+	padding: 10px 15px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.todo-input form input:focus,
+.todo-input form textarea:focus {
+	outline: none;
+}
+
+.todo-input form input::placeholder,
+.todo-input form textarea::placeholder {
+	color: black;
+}
+
+.todo-input form textarea {
+	background: none;
+	width: 240px;
+	height: 100px;
+	margin: 10px 0;
+	padding: 10px 15px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.todo-input form button {
+	background: none;
+	padding: 7px 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px black;
+}
+
+.todo-input form button:hover {
+	background: black;
+	color: orange;
+	border: 2px solid orange;
+}
+
+
+.todo-output {
+	padding: 50px 20px;
+}
+
+.task-item {
+	background: orange;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 5px;
+}
+
+.task-item #left {
+	
+}
+
+.task-item #right {
+	text-align: right;
+	padding: 10px;
+}
+
+.task-item h2 {
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.task-item p {
+	color: #393939;
+}
+
+.task-item button {
+	background: black;
+	color: orange;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 8px 10px;
+}
+
+.task-item button:hover {
+	background: orange;
+	color: black;
+	border: 2px solid black;
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+	.todo-output {
+		padding: 50px 120px;
+	}
+}
